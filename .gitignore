@@ -1,0 +1,33 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# generic
+__MACOSX
+.DS_Store
+*.heapsnapshot
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+*.orig
+*.zip
+*.map
+pids
+logs
+tmp
+_tmp*
+
+# IDEs
+.vscode
+*.iml
+.idea
+
+# specific
+node_modules
+npm-debug.log*
+coverage
+package-lock.json
+*.cert
+*.key
