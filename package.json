@@ -1,0 +1,17 @@
+{
+  "name": "https",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "create-certs": "./scripts/create-certs.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mkcert": "^1.5.0"
+  }
+}
