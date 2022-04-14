@@ -28,7 +28,6 @@ _tmp*
 node_modules
 npm-debug.log*
 coverage
-package-lock.json
 *.cert
 *.crt
 *.key
